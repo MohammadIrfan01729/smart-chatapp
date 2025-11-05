@@ -8,7 +8,7 @@ The project demonstrates skills in React.js, state management, component design,
 ## Team Members
 - Surya Rupesh (160124737059)
 - Khyathi (160124737001)
-- Mohammad Irfan (160124737059)
+- Mohammad Irfan (160124737050)
 - Vikaas N (160124737063)
 
 ## Internship Details
