@@ -1,16 +1,57 @@
-# React + Vite
+# Codesprint Frontend Internship Final Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This repository contains the source code for the final project completed during the Codesprint Frontend Internship. The project was developed as part of the GitHub Workshop to gain practical experience in frontend development using modern web technologies.
 
-Currently, two official plugins are available:
+The project demonstrates skills in React.js, state management, component design, and CSS styling to create a responsive and interactive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Team Members
+- Surya Rupesh (160124737059)
+- Khyathi (160124737001)
+- Mohammad Irfan (160124737059)
+- Vikaas N (160124737063)
 
-## React Compiler
+## Internship Details
+- Internship Program: Codesprint Frontend Internship
+- Workshop: GitHub Workshop
+- Project Type: Frontend Development
+- Description: This is the final project for the internship, showcasing the practical application of frontend technologies learned during the program.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
+- `index.html` - The main HTML entry point.
+- `App.jsx` - Root React component.
+- `main.jsx` - React app bootstrap file.
+- `Contacts.jsx` - Component managing contacts.
+- `Chat.jsx` - Component handling chat functionalities.
+- `Login.jsx` - Component for user authentication.
+- `models.js` - Data models and utility functions.
+- `storage.js` - Local storage utilities and helpers.
+- `index.css` - Styling for the application.
+- `vite.config.js` - Configuration for Vite build tool.
 
-## Expanding the ESLint configuration
+## Installation and Setup
+1. Clone the repository:
+- git clone <repo-url>
+2. Navigate to the project directory:
+- cd <project-directory>
+3. Install dependencies:
+- npm install
+4. Run the development server:
+- npm run dev
+5. Open your browser and go to `http://localhost:3000` to see the app.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS
+
+## Contribution
+This project was developed collaboratively by the team as part of the internship program.
+
+## License
+This project is for educational and internship purposes.
+
+---
+
+Thank you for checking out our project!
