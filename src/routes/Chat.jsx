@@ -267,8 +267,8 @@ const Chat = () => {
       <div className="nav">
         <div className="nav-title">
           {activeConversation ? 
-            `💬 ${activeConversation.otherUser?.name}` : 
-            '📨 Messages'
+            ` ${activeConversation.otherUser?.name}` : 
+            ' Messages'
           }
         </div>
         <div className="nav-actions">
@@ -426,8 +426,8 @@ const Chat = () => {
           <div className="chat-input-container">
             <div className="chat-input-wrapper">
               <textarea
-                className="chat-input"
-                placeholder="Type a message... (Press Enter to send, Shift+Enter for new line)"
+                className="chat-input" 
+                placeholder="Type a message"
                 value={newMessage}
                 onChange={(e) => setNewMessage(e.target.value)}
                 onKeyPress={handleKeyPress}
@@ -462,7 +462,7 @@ const Chat = () => {
               marginTop: '0.5rem',
               textAlign: 'center'
             }}>
-              💡 Try: :) :D :heart :fire &nbsp;|&nbsp; 🎙️ Voice input available
+              
             </div>
           </div>
         </>

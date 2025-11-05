@@ -123,7 +123,7 @@ const Login = () => {
     <div className="container">
       <div className="card">
         <div className="text-center mb-2">
-          <h1>🤖 Smart Chat</h1>
+          <h1>Smart Chat</h1>
           <p className="text-muted">
             {isLogin ? 'Welcome back!' : 'Create your account'}
           </p>
