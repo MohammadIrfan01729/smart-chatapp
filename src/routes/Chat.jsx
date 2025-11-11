@@ -373,7 +373,7 @@ const Chat = () => {
               <div className="text-center text-muted" style={{ marginTop: '2rem' }}>
                 <p>No messages yet. Start the conversation!</p>
                 <p style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
-                  Try using voice input 🎙️ or type :smile: for emojis 😊
+                  Try using voice input 🎙️ or type :haha for emojis
                 </p>
               </div>
             ) : (
